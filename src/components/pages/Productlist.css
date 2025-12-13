@@ -1,0 +1,28 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.email-table{
+    margin-top: 60px;
+}
+.table4{
+    border: 1px solid black;
+    background-color: #f4f7f8;
+    width: 100%;
+}
+.table4-heading{
+  background-color: #149a9b;
+  text-align: left;
+}
+.table4-content{
+  background-color: #e0e0e0;
+  text-align: left;
+}
+
+@media(max-width: 768px){
+  .email-table{
+    margin-left: -30px;
+  }
+
+
+}

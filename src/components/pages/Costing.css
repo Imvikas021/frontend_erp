@@ -1,0 +1,44 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.costing-form{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2px;
+}
+.costing-form input{
+    border: 1px solid black;
+}
+ .costing-form label{
+    flex: 1;
+    margin-left: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #333;
+}
+ .costing-form input{
+    flex: 2;
+    font-size: 15px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border: 1px solid black;
+}
+@media (max-width:768px) {
+    .costing{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-bottom: 15px;
+    }
+    .costing-form{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+}

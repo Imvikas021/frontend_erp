@@ -1,0 +1,92 @@
+*{
+  margin: 0%;
+  padding: auto;
+}
+.active{
+  display: flex;
+  font-style: unset;
+}
+.navbar{
+  position: fixed;
+  top: 55px;
+  left: -250px;
+  width: 220px;
+  height: 100%;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+  transition: left 0.3s ease;
+  color: white;
+  z-index: 999;
+  padding: 2px;
+}
+.navbar.open{
+  left: 0;
+}
+.navbar a{
+  padding: 4px 8px;
+  color: white;
+  text-decoration: none;
+}
+.navbar a:hover{
+  background-color: #9cd1d1;
+
+}
+.sidebar{
+  display: grid;
+  align-items: start;
+  height: auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 125px;
+  overflow-y: auto;
+  transition: all 0.3s ease;
+}
+.sidebar::-webkit-scrollbar{
+  width: 6px;
+}
+
+.sidebar::-webkit-scrollbar-thumb{
+  background-color: #14bcbc;
+  border-radius: 3px;
+}
+#logoicon{
+  text-align: start;
+  margin-left: 14px;
+}
+
+#navname{
+  display: grid;
+  margin-top: 32px;
+  color: black;
+  font-size: 1em;
+}
+#navname:hover{
+  color: #149a9b;
+}
+.project-btn{
+  color: #000000ff;
+}
+.btn{
+  background-color: white;
+  margin: 18px 0;
+  margin-left: 5px;
+  border-color: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.btn:hover{
+  border: 2px solid #14bcbc;
+  background-color: transparent;
+  border-color: #14bcbc;
+}
+
+@media (max-width: 768px){
+  .sidebar{
+    overflow-y: scroll;
+    white-space: nowrap;
+  }
+
+}

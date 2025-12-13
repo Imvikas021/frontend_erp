@@ -1,0 +1,31 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.table5{
+    border: 1px solid black;
+    background-color: #f4f7f8;
+    width: 100%;
+}
+.table5-heading{
+  background-color: #149a9b;
+  text-align: left;
+  padding: 8px;
+}
+.table5-content{
+  background-color: #e0e0e0;
+  padding: 8px;
+  text-align: left;
+}
+@media (max-width:768px) {
+   .listtask-table{
+        width: 100%;
+        overflow-x: auto;
+        overflow-y: auto;
+    }
+    .listtask-table table5{
+        min-width: 900px;
+        border-collapse: collapse;
+    }
+  
+}

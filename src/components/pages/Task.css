@@ -1,0 +1,55 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.Task{
+  position:relative;
+  margin-top: 52px;
+  flex-direction: column;
+  gap: 2px;
+  background: #eee;
+  display: flex;
+}
+#taskicon{
+  border: transparent;
+  background-color: white;
+}
+.Task-container{
+    flex-wrap: nowrap;
+    flex-direction: row;
+    display: flex;
+    position: relative;
+    cursor: pointer;
+    border-color: transparent;
+    background-color: transparent;
+}
+.Task-container h2{
+  margin-left: 5px;
+  justify-content: center;
+}
+.task-nav{
+  display: flex;
+  margin-top: 4px;
+  align-items:  center;
+  margin-right: 5px;
+  margin-left: auto;
+  gap: 5px;
+}
+@media(max-width:768px){
+  .Task{
+    margin-top: 52px;
+    position: relative;
+    width: 100%;
+ }
+ .Task-container{
+    display: flex;
+    background-color: #eee;
+    gap: 5px;
+ }
+ .task-nav{
+  display: none;
+ }
+ .hamburger{
+  display: block;
+ }
+}

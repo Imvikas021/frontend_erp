@@ -1,0 +1,23 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.costing-table{
+    margin-top: 60px;
+}
+.table3{
+    border: 1px solid black;
+    background-color: #f4f7f8;
+    width: 100%;
+}
+.table3-heading{
+  background-color: #149a9b;
+  text-align: left;
+  padding: 8px;
+}
+.table3-content{
+  background-color: #e0e0e0;
+  padding: 8px;
+  text-align: left;
+}
