@@ -19,7 +19,7 @@ function Projectcreate() {
         remark: ""
     });
 
-  const [lastEntry, setlastEntry] = useState(null);
+  const [lastEntry] = useState(null);
 
   const navigate = useNavigate();
 
