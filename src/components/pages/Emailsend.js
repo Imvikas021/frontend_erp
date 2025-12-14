@@ -11,7 +11,7 @@ function Emailsend() {
   const handleSend = async (e) => {
     e.preventDefault();
 
-    const response = await fetch("http://192.168.1.6:3001/email/send",{
+    const response = await fetch(`${process.env.REACT_APP_API_URL}/api/email/send"`,{
       method: "POST",
       headers: { "Content-Type": "application/json"},
       body: JSON.stringify({

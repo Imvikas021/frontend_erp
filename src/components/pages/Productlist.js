@@ -5,7 +5,11 @@ function Emailsubmit()  {
     const [product, setProduct] = useState([]);
   
     useEffect(() => {
-     fetch ("http://192.168.1.6:3001/product")
+     fetch (`${process.env.REACT_APP_API_URL}/api/product`,{
+      headers: {
+        Authorization: `Bearer ${localStorage.getItem("token")}`,
+      }
+     })
      .then(res => res.json())
      .then(data => setProduct(data))
      .catch (err => console.error(err));

@@ -14,7 +14,7 @@ function LOGIN() {
       e.preventDefault(); 
        
       try {
-        const res = await axios.post("http://192.168.1.6:3001/login",{
+        const res = await axios.post(`${process.env.REACT_APP_API_URL}/api/login`,{
           user_name,
           password,
         },{
