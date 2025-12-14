@@ -5,7 +5,11 @@ function Costingname() {
    const [costing, setCosting] = useState([]);
 
       useEffect(() => {
-        fetch ("http://192.168.1.6:3001/costing")
+          fetch (`${process.env.REACT_APP_API_URL}/api/costing`,{
+      headers: {
+        Authorization: `Bearer ${localStorage.getItem("token")}`,
+      }
+     })
         .then(res => res.json())
         .then(data => setCosting(data))
         .catch (err => console.error(err));

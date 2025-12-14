@@ -6,7 +6,11 @@ function Thingstodone() {
       const [things, setThings] = useState([]);
    
        useEffect(() => {
-                fetch ("http://192.168.1.6:3001/thingstodo")
+                   fetch (`${process.env.REACT_APP_API_URL}/api/thingstodo`,{
+      headers: {
+        Authorization: `Bearer ${localStorage.getItem("token")}`,
+      }
+     })
                 .then(res => res.json())
                 .then(data => setThings(data))
                 .catch (err => console.error(err));

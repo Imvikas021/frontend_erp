@@ -5,7 +5,11 @@ function Listtask() {
   const [task, setTask] = useState([]);
   
         useEffect(() => {
-          fetch ("http://192.168.1.6:3001/task1")
+             fetch (`${process.env.REACT_APP_API_URL}/api/task1`,{
+      headers: {
+        Authorization: `Bearer ${localStorage.getItem("token")}`,
+      }
+     })
           .then(res => res.json())
           .then(data => setTask(data))
           .catch (err => console.error(err));

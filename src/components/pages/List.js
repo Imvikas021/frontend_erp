@@ -6,7 +6,11 @@ const List = () => {
   const [project, setProject] = useState([]);
 
    useEffect(() => {
-        fetch ("http://192.168.1.6:3001/project")
+           fetch (`${process.env.REACT_APP_API_URL}/api/project`,{
+      headers: {
+        Authorization: `Bearer ${localStorage.getItem("token")}`,
+      }
+     })
         .then(res => res.json())
         .then(data => setProject(data))
         .catch (err => console.error(err));
