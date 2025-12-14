@@ -42,7 +42,7 @@ const Thingstodo = () => {
       <label>Work Date</label>
       <input type='date' name='work_date' placeholder='Work Date' onChange={handleChange}/>
       <label>Work Time</label>
-      <input type='int' name='work_time' placeholder='Work Time' onChange={handleChange}/>
+      <input type='int' name='work_time' placeholder='Work Time(Hours)' onChange={handleChange}/>
       <div> 
         <button type='submit' id='submit' name='button'>Add</button>
       </div>
