@@ -259,13 +259,16 @@
   opacity: 1;
   color: #149a9b;
 }
-@media (max-width: 360px) {
+@media (max-width: 480px) {
   .premium-card{
-    padding: 20px;
-    border-radius: 16px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 360px;
   }
-  .card-title{
-    font-size: 16px;
-  }
-  
+  .footer-img{
+    display: block;
+    margin-left: 2px;
+    height: 250px;
+    width: 375px;
+  }  
 }
