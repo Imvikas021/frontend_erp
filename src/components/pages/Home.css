@@ -64,7 +64,7 @@
 .box {
     justify-content: center;
     align-items: center;
-    min-width:375px;
+    min-width:370px;
     color: #149a9b;
     min-height: 150px;
     padding: 1%;
@@ -88,5 +88,8 @@
     margin: 0 auto;
     width: 100%;
     max-width: 360px;
+  }
+  .box{
+    max-width: 350px;
   }
 }
