@@ -64,7 +64,7 @@
 .box {
     justify-content: center;
     align-items: center;
-    min-width:370px;
+    min-width:375px;
     color: #149a9b;
     min-height: 150px;
     padding: 1%;
@@ -82,14 +82,4 @@
     border-width: 2px;
     transform: scale(1.1);
 }
-}
-@media (max-width: 480px) {
-  .container{
-    margin: 0 auto;
-    width: 100%;
-    max-width: 360px;
-  }
-  .box{
-    max-width: 270px;
-  }
 }
