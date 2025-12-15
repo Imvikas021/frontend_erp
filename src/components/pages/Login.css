@@ -266,24 +266,16 @@
     max-width: 360px;
   }
   .footer-img{
-    display: block;
     margin-left: 2px;
     height: 250px;
     width: 375px;
   }  
-  .premium-left{
-    display: none;
-  }
+
   .premium-container{
-    display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     padding: 0%;
   }
-  .premium-footer{
-    position: static;
-    margin-top: 20px;
-    text-align: center;
-  }
+
 }
