@@ -8,7 +8,7 @@ function Home (){
                  <h2>Home</h2>
              </div> 
              <hr></hr>
-            <div className='container'>
+        <div className='container'>
             <Link to='/Project/List' id='link'>
             <button className='box'>
             <div>
@@ -74,10 +74,8 @@ function Home (){
             <div>
                 <h3>Agenda</h3>
             </div>
-            </button>
-            
-            
-        </div >
+            </button> 
+          </div >
         </div>
         </>
     }
