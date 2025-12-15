@@ -23,7 +23,7 @@ function Thingstodone() {
                     <th>Project Name</th>
                     <th>Work Details</th>
                     <th>Work Date</th>
-                    <th>Work Time</th>
+                    <th>Work Time (Hr)</th>
                   </tr>
             </thead>
             <tbody className='table6-content'>
