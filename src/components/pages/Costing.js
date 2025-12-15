@@ -37,6 +37,18 @@ function Costing() {
         <input type='text' name='costing_name' onChange={handleChange}/>
         <label>Costing</label>
         <input type='text' name='costing' onChange={handleChange}/>
+          <label>Costing</label>
+        <input type='text' name='costing' onChange={handleChange}/>
+          <label>Costing</label>
+        <input type='text' name='costing' onChange={handleChange}/>
+          <label>Costing</label>
+        <input type='text' name='costing' onChange={handleChange}/>
+          <label>Costing</label>
+        <input type='text' name='costing' onChange={handleChange}/>
+          <label>Costing</label>
+        <input type='text' name='costing' onChange={handleChange}/>
+          <label>Costing</label>
+        <input type='text' name='costing' onChange={handleChange}/>
           <button id='submit' type='submit'>Submit</button>
       </form>
     </div>
