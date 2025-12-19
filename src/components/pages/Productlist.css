@@ -21,7 +21,6 @@
 
 @media(max-width: 768px){
   .email-table{
-    margin-left: -30px;
     width: 100%;
     height: auto;
     overflow-x: auto;
