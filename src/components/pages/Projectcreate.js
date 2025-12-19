@@ -80,7 +80,11 @@ function Projectcreate() {
           </div>
           <div className='div1'>
             <label>Costing Assign TO</label>
-            <input type="text" id="name" name="costing_assign_to" placeholder='Costing Assign To' onChange={handleChange}/>
+            <select type="text" id="name" name="costing_assign_to" placeholder='Costing Assign To' onChange={handleChange}>
+              <option value='AFSAR'>AFSAR</option>
+              <option value='FARMAN'>FARMAN</option>
+              <option value='FAISAL'>FAISAL</option>
+              </select>
           </div>
           <div className='div1'>  
             <label>Remark</label>
