@@ -16,7 +16,6 @@ function Thingstodone() {
                 .catch (err => console.error(err));
                }, []);
   return (
-    <>
          <table className='table6'>
             <thead className='table6-heading'>
                   <tr>
@@ -37,7 +36,6 @@ function Thingstodone() {
                 ))}
             </tbody>
         </table>
-      </>
   )
 }
 
