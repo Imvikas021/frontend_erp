@@ -15,3 +15,11 @@
   background-color: #e0e0e0;
   text-align: left;
 }
+@media(max-width: 768px){
+  .table6{
+    width: 100%;
+    height: auto;
+    overflow-y: auto;
+    overflow-x: auto;
+  }
+}
